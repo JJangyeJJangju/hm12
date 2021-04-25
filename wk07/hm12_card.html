@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>hm12 : CSS3 advanced</title>
+		<style>			
+			p{
+				width : 400px;
+				height :450px;
+				padding : 5px;
+				border : 50px solid yellow;
+				margin : 1px;
+			}
+
+
+			#fixed {
+				position: fixed;
+				top: 70px;
+				left: 10px;
+				width: 100px;
+				padding: 5px;
+				background: red;
+				color: white;
+			}
+			#fixed2 {
+				position: fixed;
+				bottom: 200px;
+				left: 110px;
+				width: 100px;
+				padding: 5px;
+				background: yellow;
+				color: black;
+			}
+			#round {
+				border-image : url("media/—Pngtree—simple\ and\ cute\ christmas\ border_5602400.png") 250 round;
+			}
+			div{
+				display: inline-block;
+			}
+			#transform:hover
+			{
+				transform: scale(1.5,1.5);
+			}
+			div{
+				display: inline-block;
+				height: 50px;
+				width: 50px;
+				border: 1px solid lightgray;
+				text-align: center;
+				color:white;
+				background: tomato;
+			}
+			#down:hover{
+				background: turquoise;
+			}
+			#down{
+				position: absolute;
+				left: 100px;
+				top: 200px;
+			}
+			#down1{
+				position: absolute;
+				left: 150px;
+				top: 170px;
+			}
+			#down2{
+				position: absolute;
+				left: 250px;
+				top: 170px;
+			}
+			#down3{
+				position: absolute;
+				left: 300px;
+				top: 200px;
+			}
+			#up:hover{
+				background: rosybrown;
+				
+			}
+			#up{
+				position: absolute;
+				left: 200px;
+				top:150px;
+			}
+			#ho:hover{
+				background: lightsteelblue;
+			}
+			#ho{
+				position:absolute;
+				left:200px;
+				top:250px;
+			}
+			#no:hover{
+				background-color: burlywood;
+			}
+			#no{
+				position: absolute;
+				left:200px;
+				top: 320px;
+			}
+			#hu{
+				position: absolute;
+				left: 300px;
+				top: 250px;
+			}
+			#star{
+				position: absolute;
+				z-index: -5px;
+				left: 100px;
+				top:250px;
+			}
+			#kirakira{
+				position: absolute;
+				z-index: -2;
+				left: 100px;
+				top: 120px;
+			}
+			@keyframes bomb {
+				from{font-size: 500%;}
+				to{font-size: 100%;}
+				
+			}
+
+			h2{
+				animation-name: bomb;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+			}
+		</style>
+		<script></script>
+	</head>
+
+	<body>
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<h3>Merry Christmas!</h3>
+		<hr>
+		
+		<p id= "round">
+		<img src="media/christmastree.png"
+		width="300" height="300"
+		alt="크리스마스 트리">
+
+		<img id="transform" src="media/진짜 내얼굴.jpg" width="65" height="200" alt="내얼굴">
+
+		<audio src="media/We Wish You A Merry Christmas.mp3" controls loop></audio>
+		</p>
+		<img id="star" src="media/star.png"
+		width="50" height="80"
+		alt="꾸미기 별">
+		<img id="kirakira" src="media/트리장식.png"
+		width="350" height="350"
+		alt="트리장식">
+		<div id="fixed">
+			예수님이 탄생하셨습니다.
+		</div>
+
+		<div id="fixed2">
+			hm12, 이예주
+		</div>
+		<div id="down">
+			M
+		</div>
+		<div id="down1">
+			E
+		</div>
+		<div id="up"><h2>
+			R</h2>
+		</div>
+		<div id="down2">
+			R
+		</div>
+		<div id="down3">
+			Y
+		</div>
+		<div id= "ho">
+		<h2>
+			-
+		</h2>
+		</div>
+		<div id="hu">
+		<h2>
+			X
+		</h2>
+		</div>
+		<div id="no"><h2>
+			MAS</h2>
+		</div>
+	</body>
+
+</html>
+
