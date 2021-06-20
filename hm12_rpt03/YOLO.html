@@ -1,0 +1,70 @@
+<html>
+	<head>
+        <hr>
+        <h3 onmouseover="show()" onmouseout="hide()">
+        마술 동호회 활동 및 필독사항</h3>
+        <hr>
+
+    본 동호회는 마술사 김현우 님을 본받아서 생성된 마술 동호회 이며 마술 초심자여도 
+    가입 가능합니다.<br>
+    
+    매월 첫째 셋째 수요일 마다 활동하며 가입비가 20000 원 있습니다.<br>
+
+		<style>
+			input[type=text] {
+				color: purple;
+			}
+			input:hover, textarea:hover {
+				background:lightgreen;
+			}
+			input[type=text]:focus, input[type=email]:focus {
+				font-size:180% ;
+			}
+			label {
+				display: block; 
+				padding: 20px;
+			}
+			label span  {
+				float: left;
+				width: 100px;
+				text-align:left ;
+				padding: 1x;
+			}
+		</style>
+		<script></script>
+	</head>
+
+	<body>
+		
+		<h3>마술 동호회</h3>
+		<hr>
+		<form action="/examples/login" method="post">
+		<fieldset>
+            <legend>개인 정보 입력</legend>
+			<label> <span>성함</span>
+				<input type="text" placeholder="이름을 적으시오">
+				<br>
+			</label>
+
+			<label> <span>Email</span>
+				<input type="email" placeholder="ASDF@NAVER.com">
+			</label>
+            <label>
+                <span>전화번호</span>
+                <input type="text" placeholder="010-XXXX-XXXX">
+            </label>
+			<label> <span>가입 이유</span>				
+				<textarea placeholder="가입하는이유"> </textarea> 
+			</label>
+			<label> <span></span>
+			<button type="submit">제출</button>
+		    </label>
+		</fieldset>
+            </form>
+            
+          <hr>
+
+
+	</body>
+ 
+
